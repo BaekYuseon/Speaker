@@ -1,0 +1,78 @@
+@charset "UFT-8"; 
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&display=swap');
+
+/* 초기화 */
+* {
+    margin: 0; padding: 0;
+    font: normal 13px 'Gothic A1', sans-serif;
+}
+
+ul { list-style: none; }
+
+a { text-decoration: none !important; }
+
+/* 헤더 */
+#header_wrap {
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header_wrap .logo {
+    text-align: center;
+    height: 130px;
+    background-color: #637081;
+}
+
+.logo img {
+    width: 5.8em;
+    height: 5.8em;
+    margin-top: 1em;
+}
+
+/* gnb */
+.header_gnb {
+    width: 20.385em;
+    height: 2.146em;
+    position: absolute;
+    bottom: 30px;
+    margin-left: 5vw;
+}
+
+.header_gnb {
+    overflow: hidden;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.header_gnb ul li {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+}
+
+.header_gnb a {
+    color: #FAF0CA;
+}
+
+/* 푸터 */
+#footer_wrap {
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #637081;
+    display: inline-block;
+}
+
+.footer_content {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.company_name, .name, .number,.address {
+    font-size: 20px;
+    float: left;
+    padding: 20px 30px;
+    color: #FAF0CA;
+}
