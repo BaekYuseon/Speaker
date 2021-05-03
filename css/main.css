@@ -1,0 +1,121 @@
+/* 메인이미지 */
+#main_content {
+    position: relative;
+}
+#main_img {
+    margin: 0 auto;
+    width: 1000px;
+}
+.bxslider img {
+    height: 500px;
+    width: 100%;
+}
+
+#main_container {
+    text-align: center;
+    margin: 0 auto;
+    width: 95vw;
+    background: url(../images/background/service.png);
+}
+/* 서비스 */
+.service {
+    background: url(../images/background/service.png);
+    overflow: hidden;
+    padding: 30px 100px;
+    display: inline-block;
+}
+.service div {
+    float: left;
+    margin: 0 30px;
+}
+
+.service div h1 {
+    margin: 8px;
+}
+
+/* 메뉴슬라이드 */
+#new_product {
+    background: white;
+    padding-top: 20px;
+}
+
+#new_product h1 {
+    font-size: 5vw;
+}
+
+/* 메뉴분류 */
+#product_category {
+    width: 870px;
+    height: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#product_category div {
+    float: left;
+    margin: 10px;
+}
+
+.woofer img {
+    width: 300px;
+    height: 500px;
+}
+
+.woofer:hover > img{
+    opacity: 0.5;
+}
+
+.mid-range img {
+    width: 250px;
+    height: 200px;
+}
+
+.mid-range:hover > img{
+    opacity: 0.5;
+}
+
+.bluetooth img {
+    width: 250px;
+    height: 200px;
+}
+
+.bluetooth:hover > img{
+    opacity: 0.5;
+}
+
+.tweeter img {
+    width: 500px;
+    height: 270px;
+}
+
+.tweeter:hover > img{
+    opacity: 0.5;
+}
+
+
+
+@media screen and (max-width:920px) {
+    #main_img {
+        margin: 0 auto;
+        width: 90vw;
+    }
+    #wrapper {
+        width: 90vw;
+    }
+    
+    .service div {
+        float: none;
+    }
+
+    #product_category {
+        height: auto;
+        width: 90vw;
+    }
+    #product_category div {
+        float: none;
+    }
+    #product_category img {
+        width: 90vw;
+        height: 30vw;
+    }
+}

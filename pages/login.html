@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../library/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <title>login</title>
+</head>
+<body>
+    <!-- 헤더 -->
+    <div id="header_wrap" style="background: none;">
+        <!-- 로고와 lnb -->
+        <div id="header_inner">
+            <div class="trigger">
+                <a href="#" class="hamburger">
+                    <i class="fas fa-2x fa-bars"></i>
+                </a>
+                <a href="#" class="close">
+                    <i class="fas fa-2x fa-times"></i>
+                </a>
+            </div>
+                <div class="logo">
+                    <a href="../index.html"><img src="images/BK.png" alt="회사로고">Speaker</a>
+                </div>
+                <div id="header_lnb">
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#"><i class="fas fa-lg fa-search"></i></a></li>
+                </div>
+            </a>
+        </div>
+    
+    <!-- GNB -->
+        <div id="header_gnb">
+            <ul class="header_menu">
+                <li class="menu_1">
+                    <a href="../pages/intro.html">Introduce</a>
+                </li>
+                <li class="menu_2">
+                    <a href="#">Product</a>
+                    <ul>
+                        <li><a href="#">Woofer</a></li>
+                        <li><a href="#">Mid-range</a></li>
+                        <li><a href="#">Tweeter</a></li>
+                        <li><a href="#">Bluetooth</a></li>
+                    </ul>
+                </li>
+                <li class="menu_3">
+                    <a href="#">Story</a>
+                </li>
+                <li class="menu_4">
+                    <a href="#">Service</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 콘텐츠 -->
+    <div id="login_content">
+        <div id="login_container">
+            <form action="#" method="get" id="main_login">
+                <p class="id">
+                    <label for="user_id">ID  </label>
+                    <input type="text" name="user_id" id="user_id" placeholder="아이디를 입력하세요.">
+                </p>
+                <p class="password">
+                    <label for="user_pw">Password</label>
+                    <input type="password" name="user_pw" id="user_pw" placeholder="비밀번호를 입력하세요.">
+                </p>
+                    <button class="login_button">Login</button>
+                </form>
+                <div class="join_find">
+                    <button class="join">Join</button>
+                    <button class="find_id">Find Id</button>
+                    <button class="find_pw">Find pw</button>
+                </div>
+        </div>
+        <div id="api_container">
+            <div class="kakao_login">
+                <a href="kakao_login.html"><img src="../images/login_api/kakao_login_large_wide.png" alt="카카오 로그인"></a>
+            </div>
+            <div class="naver_login">
+                <a href="#"><img src="../images/login_api/네이버 아이디로 로그인_완성형_Green.PNG" alt="네이버 로그인"></a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 푸터 -->
+    <!-- 푸터 -->
+    <div id="footer_wrap">
+        <div class="footer_content">
+            <div class="company_name">
+                BK Speaker
+            </div>
+            <div class="name">Baek Yuseon</div>
+            <div class="number">
+                T.032-***-****
+                Fax.032-***-****
+            </div>
+            <div class="address">
+                인천광역시 **구 ***동 **빌딩
+            </div>
+        </div>
+        <div class="footer_icon">
+            <a href="#"><i class="fab fa-2x fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-2x fa-facebook-square"></i></a>
+        </div>
+    </div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/common.js"></script>  
+    <script src="../js/MOCK_DATA.json"></script>  
+    <script src="../js/ajax.js"></script>
+</body>
+</html>

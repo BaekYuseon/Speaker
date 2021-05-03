@@ -1,0 +1,122 @@
+body {
+    background: url(../images/login_background.png);
+}
+
+/* 로그인 전체 */
+
+#login_content {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 700px;
+    height: 800px;
+    text-align: center;
+    display: block;
+}
+
+/* 메인로그인 */
+
+#login_container {
+    text-align: center;
+    width: 900px;
+    height: 450px;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+#main_login {
+    width: 800px;
+    height: 300px;
+    overflow: hidden;
+    margin: 20px;
+    display: inline-block;
+}
+
+#main_login .id, .password {
+    float: left;
+    width: 350px;
+    height: 80px;
+    margin-left: 100px;
+    margin-top: 60px;
+    line-height: 85px;
+}
+
+#user_id, #user_pw {
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+#main_login label {
+    font-size: large;
+}
+
+#main_login .button {
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    transition-duration: 0.4s;
+}
+
+.login_button {
+    font-size: 20px;
+    padding: 40px 30px;
+    margin-right: 100px;
+    border: 2px solid palegoldenrod;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+/* 회원가입 아이디 비밀번호 찾기 */
+
+.join_find {
+    width: 500px;
+    height: 70px;
+    line-height: 100px;
+    display: inline-block;
+    margin-right: 200px;
+}
+
+.join_find .button {
+    border: none;
+    text-align: center;
+    display: inline-block;
+    transition-duration: 0.4s;
+}
+
+.join {
+    font-size: 20px;
+    color: black;
+    padding: 20px 30px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.find_id {
+    font-size: 20px;
+    color: black;
+    padding: 20px 30px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.find_pw {
+    font-size: 20px;
+    color: black;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+/* api 로그인 */
+
+#api_container {
+    margin-top: 15px;
+}
+
+#api_container .kakao_login, .naver_login {
+    margin: 10px;
+}
+
+#api_container .naver_login img {
+    width: 600px;
+    height: 90px;
+}
