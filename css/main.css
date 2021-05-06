@@ -61,7 +61,7 @@
     height: 500px;
 }
 
-.woofer:hover > img{
+.woofer:hover > img {
     opacity: 0.5;
 }
 

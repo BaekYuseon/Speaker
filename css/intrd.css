@@ -52,17 +52,17 @@
     margin-top: 100px;
 }
 
-#intrd_content p {
+#intrd_wrap p {
     width: calc(100%-530px);
-    font-size: 25px;
+    font-size: 20px;
     color: #050517;
 }
 
 @media screen and (max-width:775px){
-    #intrd_content {
+    #intrd_wrap {
         float: none;
     }
-    #intrd_content img {
+    #intrd_wrap img {
         width: 100%;
     }
     .intrd_first_text, .intrd_second_text, .intrd_third_text {
