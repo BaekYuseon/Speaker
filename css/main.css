@@ -105,6 +105,7 @@
     
     .service div {
         float: none;
+        padding: 13px 0;
     }
 
     #product_category {
