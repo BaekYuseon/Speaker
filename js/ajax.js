@@ -1,6 +1,6 @@
 $('.login_button').click(function() {
     $.ajax({
-    url:"MOCK_DATA.json",
+    url:"../js/MOCK_DATA.json",
     dataType:"json",
     success:function(data){
         alert('로그인 성공');
